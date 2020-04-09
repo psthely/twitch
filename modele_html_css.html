@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer une page web</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 25px;
+            border-left: solid thin lightgrey;   /* var color_lightgray */
+            border-right: solid thin lightgrey;   /* var color_lightgray */
+        }
+        /*
+        /* header section 
+        */
+        header {
+            padding: 15px;                  /* var block_padding */
+        }
+        #head {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: solid thick lightgrey;   /* var color_lightgray */
+            color: steelblue;           /* var color_steelblue */
+            font-weight: 100;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+            color: red;
+            font-family:  Arial, Helvetica, sans-serif;
+            font-variant: small-caps;
+            font-size: 8em;
+            font-weight: lighter;
+        }
+        /*
+        /* nav section 
+        */
+        nav {
+            border-top: solid thin lightgrey;   /* var color_lightgray */
+            border-bottom: solid thin lightgrey;   /* var color_lightgray */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style-type: none;
+            margin-right: 15px;
+            color: steelblue;           /* var color_steelblue */
+        }
+        /*
+        /* main section 
+        */
+        main {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1em;
+        }
+        main h1 {
+            color: steelblue;           /* var color_steelblue */
+        }
+        aside {
+            background-color: rgb(230,230,230);
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 32%;
+            padding: 15px;                  /* var block_padding */
+            
+        }
+        aside h1 {
+            border-bottom: dashed thin gray;  /* var color_gray */
+            padding-bottom: 15px;
+        }
+        aside p {
+            line-height: 1.5em;
+        }
+        article {
+            width: 57%;
+            padding: 15px;                  /* var block_padding */
+            border-left: solid thin lightgrey;   /* var color_lightgray */
+        }
+        article img {
+            max-width: 100%;
+            border: solid thick white;
+        }
+        article .img_shadow_affect {
+            box-shadow: 0 10px 10px gray;
+        }
+        article h1 {
+            font-size: 2.5em;
+        }
+        article p {
+            line-height: 1.5em;
+        }
+        /*
+        /* footer section 
+        */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;                  /* var block_padding */
+            color: steelblue;           /* var color_steelblue */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <p>Lorem Ipsum Dolor</p>
+            <p>29 juillet 2019</p>
+        </div>
+        <h1>une du jour</h1>
+        <nav>
+            <ul>
+                <li>Aliquam sed eros</li>
+                <li>Nulla facilisi</li>
+                <li>Lorem vitae elit</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h1>Etiam sit amet est</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Cras erat arcu, pulvinar at
+                est sed, hendrerit commodo lorem. Cras viverra
+                accumsan enim, vel vehicula orci maximus non.
+                Fusce bibendum nisl in metus mattis, vel accumsan
+                dolor ullamcorper.
+            </p>
+            <h1>Donec quis nunc</h1>
+            <p>
+                Morbi aliquet pretium velit vitae euismod. Morbi
+                ornare auctor sem non viverra. Vivamus sed eros
+                sit amet neque tincidunt euismod facilisis a massa.
+                Praesent enim diam, mattis nec cursus id, fringilla
+                ac purus. Sed posuere facilisis cursus. Nulla tempus
+                lobortis laoreet.
+            </p>
+            <h1>Nunc ut lectus</h1>
+            <p>
+                Cras gravida ac orci eu maximus. Suspendisse tempus
+                tortor justo, sit amet pulvinar risus egestas quis.
+                Phasellus et ultrices nulla. Proin cursus feugiat vehicula.
+                Maecenas porttitor urna lorem, eget congue tellus pharetra et.
+            </p>
+        </aside>
+        <article>
+            <img src="place_graslin.jpg" alt="image d'illustration de l'article" class="img_shadow_affect">
+            <div class="img_shadow_affect"></div>
+            <h1>Integer facilisis arcu</h1>
+            <p>Sed sed sollicitudin nibh. Vestibulum accumsan urna sit amet
+                accumsan ultrices. Quisque blandit tortor at nulla viverra dictum.
+                Nulla auctor, orci in vehicula rhoncus, nulla mauris interdum
+                eros, et porta libero velit nec enim. Aenean maximus magna augue,
+                fermentum euismod nunc pulvinar eu. Suspendisse varius porttitor
+                nisi varius pulvinar. Cras in ipsum erat. Proin at rutrum augue. In
+                hac habitasse platea dictumst. Vivamus malesuada, turpis pharetra
+                blandit aliquet, augue libero tristique neque, at efficitur purus
+                magna sit amet ligula.
+            </p>
+            <p>
+                Morbi pretium cursus tortor, sit amet vestibulum nibh rutrum in.
+                Fusce fermentum nec dolor ac congue. Aliquam interdum pharetra sem
+                nec aliquam. Nunc eleifend sollicitudin arcu non consectetur. Nullam
+                quis eleifend nulla, a interdum ante. Nulla tristique aliquam nisi,
+                in euismod augue blandit vel.
+            </p>
+            <img src="article_footer_image.jpeg" alt="image d'illustration en fin d'article">
+        </article>
+    </main>
+
+    <footer>
+        <p>Lorem Ipsum Dolor</p>
+        <p class="page_number">1</p>
+    </footer>
+</body>
+</html>
