@@ -1,0 +1,49 @@
+/*TODO
+change cards paragraphs text to #333
+change footer text and button colors
+*/
+
+.custom_css_card {
+    border: unset;
+    max-width: unset;
+}
+
+.custom_css_banner {
+    margin-bottom: unset;
+    border-radius: unset;
+    background-color: rgb(245,245,245);
+    color: #357edd;
+}
+
+.custom_css_banner h2, .custom_css_banner p {
+    color: #333;
+}
+
+.custom_css_banner_signup {
+    background-color: #357edd;
+    color: #fff;
+    border-color: #357edd;
+    border-radius: unset;
+}
+
+.custom_css_banner_learn_more {
+    background-color: #357edd;
+    color: #fff;
+    border-color: #357edd;
+    border-radius: unset;
+}
+
+.custom_css_single_cta {
+    background-color: rgb(245,245,245);
+    border-color: rgb(245,245,245);
+    border-radius: unset;
+}
+
+.custom_css_single_cta p {
+    color: #333;
+}
+
+.custom_css_single_cta_signup {
+    border-radius: unset;
+}
+
