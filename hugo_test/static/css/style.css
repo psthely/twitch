@@ -1,0 +1,9 @@
+h1[class="flex-none"] {
+    display: none;
+}
+
+.blah h1 a {
+    color: blue;
+    border: solid thin black;
+}
+

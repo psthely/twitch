@@ -1,0 +1,8 @@
+baseURL = "https://xenodochial-lamarr-d84d5d.netlify.com"
+languageCode = "en-us"
+title = "Titre du site"
+theme = "ananke"
+
+[params]
+    featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+    custom_css = ["css/style.css"]
